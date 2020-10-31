@@ -4,6 +4,9 @@ using System.Threading.Tasks;
 
 namespace ISPDB_Lookup
 {
+    /// <summary>
+    /// internal class for download html page by URL
+    /// </summary>
     internal class DownloaderHtml : IDisposable
     {
         public DownloaderHtml(string url)

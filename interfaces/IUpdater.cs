@@ -1,8 +1,10 @@
-﻿namespace ISPDB_Lookup.interfaces
+﻿using System.Threading.Tasks;
+
+namespace ISPDB_Lookup.interfaces
 {
     public interface IUpdater
     {
         void SetLink(string link);
-        void DownloadDatabase();
+        Task DownloadDatabase();
     }
 }
