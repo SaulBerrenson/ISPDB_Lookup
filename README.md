@@ -12,7 +12,7 @@ This is library for looking imap/pop3/smtp config from ISP DB by Mozilla (Thunde
      LookupDomain lookup = new LookupDomain();
     	 var config_bk =await lookup.Find("bk.ru");
 	//Download all configs from ISP DB using dataflow (TPL - dataflow) at backend
-			//Intialize downloader
+		//Intialize downloader
             DownloaderISPDB downloader = new DownloaderISPDB();
             //Download all
             await downloader.DownloadDatabase();
