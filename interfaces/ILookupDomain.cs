@@ -1,7 +1,9 @@
-﻿namespace ISPDB_Lookup.interfaces
+﻿using ISPDB_Lookup.Xml;
+
+namespace ISPDB_Lookup.interfaces
 {
     public interface ILookupDomain
     {
-        void Find(string domain);
+        clientConfig Find(string domain);
     }
 }

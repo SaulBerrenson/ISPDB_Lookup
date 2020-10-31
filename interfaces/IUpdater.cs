@@ -3,6 +3,6 @@
     public interface IUpdater
     {
         void SetLink(string link);
-        void DownloadDataBase();
+        void DownloadDatabase();
     }
 }
